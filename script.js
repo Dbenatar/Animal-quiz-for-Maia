@@ -40,6 +40,7 @@ function showQuestion(question) {
 }
 
 function resetState(e) {
+  clearStatusClass(document.body);
   nextButton.classList.add("hide");
   while (answerButtonsElement.firstChild) {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild);
@@ -79,6 +80,98 @@ const questions = [
   {
     question: "How many legs does an insect have?",
     answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "2", correct: false },
+      { text: "12", correct: false },
+    ],
+  },
+  {
+    question: "What is a baby puffin called?",
+    answers: [
+      { text: "Cub", correct: false },
+      { text: "Pufflet", correct: false },
+      { text: "Puffling", correct: true },
+      { text: "Pup", correct: false },
+    ],
+  },
+  {
+    question: "What ?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "How many legs does an insect have?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "How many legs does an insect have?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "How many legs does an insect have?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "How many legs does an insect have?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "How many legs does an insect have?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "How many legs does an insect have?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "How many legs does an insect have?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+      { text: "6", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    question: "How many legs does an insect have?",
+    answers: [
+      { text: "6", correct: true },
+      { text: "8", correct: false },
       { text: "6", correct: true },
       { text: "8", correct: false },
     ],

@@ -96,19 +96,19 @@ const questions = [
     ],
   },
   {
-    question: "What ?",
+    question: "What is the name of an area where a species live?",
     answers: [
-      { text: "6", correct: true },
-      { text: "8", correct: false },
-      { text: "6", correct: true },
-      { text: "8", correct: false },
+      { text: "House", correct: false },
+      { text: "Flat", correct: false },
+      { text: "Room", correct: false },
+      { text: "Habitat", correct: true },
     ],
   },
   {
-    question: "How many legs does an insect have?",
+    question: "What is the name of the seed of an oak tree?",
     answers: [
-      { text: "6", correct: true },
-      { text: "8", correct: false },
+      { text: "Berry", correct: false },
+      { text: "Acorn", correct: true },
       { text: "6", correct: true },
       { text: "8", correct: false },
     ],

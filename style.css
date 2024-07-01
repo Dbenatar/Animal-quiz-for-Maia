@@ -85,3 +85,28 @@ body.wrong {
 .hide {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* media queries defaults 600px, 601px, 768px, 992px, 1200px */

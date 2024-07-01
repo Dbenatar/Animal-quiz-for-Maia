@@ -109,8 +109,8 @@ const questions = [
     answers: [
       { text: "Berry", correct: false },
       { text: "Acorn", correct: true },
-      { text: "6", correct: true },
-      { text: "8", correct: false },
+      { text: "Conker", correct: false },
+      { text: "Apple", correct: false },
     ],
   },
   {
